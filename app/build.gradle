@@ -1,0 +1,27 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.0.3"
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+    }
+
+    productFlavors {
+        A {
+            packageName "ro.stemo.productflavorstutorial.app.A"
+        }
+
+        B {
+            packageName "ro.stemo.productflavorstutorial.app.B"
+        }
+    }
+
+
+}
+
+

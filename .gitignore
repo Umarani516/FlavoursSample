@@ -1,0 +1,17 @@
+#Android Studio
+build
+.idea
+ProductFlavorsTutorial.iml
+local.properties
+*.ipr
+*.iws
+classes
+gen-external-apklibs
+
+#Gradle
+.gradle
+build
+gen
+
+#Other
+.DS_Store
