@@ -1,5 +1,9 @@
 apply plugin: 'android'
 
+dependencies {
+    compile 'com.android.support:support-v4:19.1.0@jar'
+}
+
 android {
     compileSdkVersion 19
     buildToolsVersion "19.0.3"
@@ -12,12 +16,16 @@ android {
     }
 
     productFlavors {
-        A {
-            packageName "ro.stemo.productflavorstutorial.app.A"
+        great {
+            packageName "ro.stemo.productflavorstutorial.app.great"
+            versionCode 2
+            versionName "1.1"
         }
 
-        B {
-            packageName "ro.stemo.productflavorstutorial.app.B"
+        awesome {
+            packageName "ro.stemo.productflavorstutorial.app.awesome"
+            versionCode 3
+            versionName "2.0"
         }
     }
 
