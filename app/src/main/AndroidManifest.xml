@@ -7,7 +7,6 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".activities.MainActivity"
             android:label="@string/app_name">
@@ -17,11 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name="ro.stemo.productflavorstutorial.app.activities.AnotherActivity"
-            android:label="@string/title_activity_another" />
-
+            android:name="ro.stemo.productflavorstutorial.modules.somemodule.preferences.SomeModulePreferences"
+            android:label="@string/title_some_module_prefs">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ro.ropardo.myhealth.activities.MHSettingsActivity" />
+        </activity>
+        <activity
+            android:name=".preferences.SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
     </application>
 
 </manifest>

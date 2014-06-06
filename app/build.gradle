@@ -1,6 +1,7 @@
 apply plugin: 'android'
 
 dependencies {
+    compile project(':modules:someModule')
     compile 'com.android.support:support-v4:19.1.0@jar'
 }
 
@@ -31,5 +32,6 @@ android {
 
 
 }
+
 
 

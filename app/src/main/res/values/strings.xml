@@ -9,5 +9,7 @@
     <string name="dlg_title">Wow</string>
     <string name="dlg_mesage">You just took orders from a button !</string>
     <string name="action_ok">OK</string>
+    <string name="title_some_module_prefs">Some Module Preferences</string>
+    <string name="some_module">Some Module</string>
 
 </resources>

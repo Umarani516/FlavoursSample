@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SomeModule</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="summary_some_module_key">A preference that affects Some Module</string>
+    <string name="title_smoe_module_key">Some Module Key</string>
+
+</resources>
