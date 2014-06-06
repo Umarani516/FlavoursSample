@@ -6,5 +6,8 @@
     <string name="hello_blank_fragment">Hello from fragment</string>
     <string name="action_click_me">Click me</string>
     <string name="title_activity_another">AnotherActivity</string>
+    <string name="dlg_title">Wow</string>
+    <string name="dlg_mesage">You just took orders from a button !</string>
+    <string name="action_ok">OK</string>
 
 </resources>
